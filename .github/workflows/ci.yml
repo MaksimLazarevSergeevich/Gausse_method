@@ -16,7 +16,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
         with:
-        submodules: true
+          submodules: true
 
       - name: Install C++ dependencies
         run: |
@@ -28,4 +28,3 @@ jobs:
           make
           make test
           ./test-gausse
-
