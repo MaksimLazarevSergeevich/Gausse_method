@@ -14,7 +14,7 @@ LDGTESTFLAGS = $(LDFLAGS) -lgtest -lgtest_main -lpthread
 
 DEPS = $(wildcard *.h)
 OBJ = csv_functions.o gausse_metod.o
-TEST-OBJ = #test-gausse.cpp
+TEST-OBJ = test-gausse.o
 
 .PHONY: default all test clean cleanall
 
