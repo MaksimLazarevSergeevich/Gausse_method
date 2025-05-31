@@ -1,6 +1,3 @@
-[submodule "lazycsv"]
-    path = externals/lazycsv
-    url = https://github.com/ashtum/lazycsv.git
 [submodule "externals/lazycsv"]
 	path = externals/lazycsv
 	url = https://github.com/ashtum/lazycsv.git
